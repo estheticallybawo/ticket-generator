@@ -1,0 +1,211 @@
+.eventTicketBooking {
+  margin: 0;
+}
+.eventTicketBookingContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.enjoy {
+  align-self: stretch;
+  position: relative;
+  font-size: 80px;
+  line-height: 150%;
+  text-align: center;
+}
+.button1 {
+  position: relative;
+  line-height: 150%;
+}
+.button {
+  width: 217px;
+  border-radius: 8px;
+  border: 1px solid #24a0b5;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+}
+.button2 {
+  width: 215px;
+  border-radius: 8px;
+  background-color: #24a0b5;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  color: #fff;
+}
+ .container {
+width: 100%;
+position: relative;
+backdrop-filter: blur(4px);
+border-radius: 16px;
+background-color: rgba(3, 30, 33, 0.1);
+border: 1px solid #24a0b5;
+box-sizing: border-box;
+height: 448px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+padding: 14px;
+text-align: center;
+font-size: 34px;
+color: #fff;
+font-family: 'Road Rage';
+}
+
+.about1 {
+  position: absolute;
+  top: 175px;
+  left: calc(50% - 401px);
+  border-radius: 40px;
+  background-color: #041e23;
+  border: 1px solid #0e464f;
+  box-sizing: border-box;
+  width: 802px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  gap: 32px;
+}
+.hugeiconsticket01 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.thumb {
+  border-radius: 12px;
+  background-color: #052f35;
+  border: 1px solid #0e464f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 8px;
+}
+.ticzIcon {
+  width: 43.8px;
+  position: relative;
+  height: 22.6px;
+}
+.thumbParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.events {
+  position: relative;
+}
+.eventsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.myTicketsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-family: Roboto;
+}
+.aboutProjectWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #fff;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.getEarlyAccess {
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.divChild {
+  width: 16px;
+  position: relative;
+  max-height: 100%;
+}
+.div {
+  border-radius: 594px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.link {
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid rgba(213, 234, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  gap: 8px;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  color: #0a0c11;
+  font-family: Alatsi;
+}
+.header {
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 600px);
+  backdrop-filter: blur(4px);
+  border-radius: 24px;
+  background-color: rgba(5, 37, 44, 0.4);
+  border: 1px solid #197686;
+  box-sizing: border-box;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  font-size: 18px;
+  color: #b3b3b3;
+  font-family: "Instrument Sans";
+}
+.about {
+  width: 100%;
+  position: relative;
+  background-color: #041e23;
+  height: 2048px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Roboto;
+}

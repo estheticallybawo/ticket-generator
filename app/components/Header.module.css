@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alatsi:wght@400&display=swap");
+
+.hugeiconsticket01 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.thumb {
+  border-radius: 12px;
+  background-color: #052f35;
+  border: 1px solid #0e464f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 8px;
+}
+.ticzIcon {
+  width: 43.8px;
+  position: relative;
+  height: 22.6px;
+}
+.thumbParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.events {
+  position: relative;
+}
+.eventsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #fff;
+}
+.myTicketsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.getEarlyAccess {
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.divChild {
+  width: 16px;
+  position: relative;
+  max-height: 100%;
+}
+.div {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.link {
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid rgba(213, 234, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  gap: 8px;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  color: #0a0c11;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  backdrop-filter: blur(4px);
+  border-radius: 24px;
+  background-color: rgba(5, 37, 44, 0.4);
+  border: 1px solid #197686;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 18px;
+  color: #b3b3b3;
+  font-family: Roboto;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .frameParent {
+    display: none;
+  }
+
+  .btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+  }
+
+  .divChild {
+    width: 24px;
+    height: 24px;
+  }
+
+  .thumbParent {
+    gap: 0.5rem;
+  }
+
+  .ticzIcon {
+    width: 60px;
+  }
+
+  .hugeiconsticket01 {
+    width: auto;
+    height: auto;
+  }
+}

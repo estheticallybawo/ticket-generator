@@ -1,0 +1,1103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alatsi:wght@400&display=swap");
+
+.heading {
+  align-self: stretch;
+  position: relative;
+}
+.sectionTitle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Roboto;
+  color: #fafafa;
+}
+.sectionTitleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.progressBar {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  bottom: 0%;
+  left: 0px;
+  border-radius: 5px;
+  background-color: #24a0b5;
+  width: 200px;
+  overflow: hidden;
+}
+
+
+.progressBar2 {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  bottom: 0%;
+  left: 0px;
+  border-radius: 5px;
+  background-color: #24a0b5;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .progressBar2 {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .progressBar2 {
+    width: 100px;
+  }
+}
+
+.progressBar2.full-width {
+  width: 100%;
+}
+.progressContainer {
+  align-self: stretch;
+  position: relative;
+  border-radius: 5px;
+  background-color: #0e464f;
+  height: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.text1 {
+  width: 340px;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Roboto;
+  display: inline-block;
+}
+
+.text2 {
+  position: relative;
+  line-height: 100%;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.heading1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+
+.main {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.main1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  height: 404px;
+  width: 232px;
+}
+
+@media (max-width: 768px) {
+  .main1 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .main1 {
+    width: 100%;
+    height: auto;
+  }
+}
+.deets {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+.labelName {
+  position: relative;
+font-size: 10px;
+line-height: 150%;
+font-family: Roboto;
+color: #fff;
+text-align: left;
+opacity: 0.33;
+}
+
+.cellName{
+ flex: 1;
+width: 100%;
+position: relative;
+border-right: 1px solid #12464e;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+text-align: left;
+font-size: 8px;
+color: #fff;
+font-family: Roboto;
+overflow: hidden;
+}
+
+.valueName {
+  position: relative;
+font-size: 8px;
+font-family: Roboto;
+color: #fff;
+text-align: left;
+}
+
+.labelEmail{
+  position: relative;
+font-size: 8px;
+font-family: Roboto;
+color: #fff;
+text-align: right;
+opacity: 0.33;
+}
+
+.valueEmail {
+  position: relative;
+font-size: 8px;
+font-family: Roboto;
+padding: 0;
+margin: 0;
+color: #fff;
+text-align: right;
+overflow: hidden;
+}
+.labelType{
+position: relative;
+font-size: 10px;
+font-family: Roboto;
+color: #fff;
+text-align: left;
+opacity: 0.33;
+}
+.valueType{
+  position: relative;
+font-size: 10px;
+font-family: Roboto;
+color: #fff;
+text-align: left;
+}
+
+.labelFor{
+  position: relative;
+font-size: 10px;
+font-family: Roboto;
+color: #fff;
+text-align: right;
+opacity: 0.33;
+}
+
+.value {
+position: relative;
+font-size: 12px;
+
+}
+.cell {
+flex: 1;
+border-right: 1px solid #12464e;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 4px;
+gap: 4px;
+overflow: hidden;
+}
+.cell1 {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 4px;
+gap: 4px;
+
+overflow: hidden;
+
+}
+
+.address {
+  	position: relative;
+  	line-height: 150%;
+}
+.userimgIcon {
+position: relative;
+border-radius: 8px;
+border: 2px solid #24A0B5;
+overflow: hidden;
+flex-shrink: 0;
+object-fit: cover;
+padding: 5px;
+gap: 3px;
+}
+.secAddress {
+  	position: relative;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 4px;
+  	box-sizing: border-box;
+  	gap: 4px;
+  	text-align: left;
+  	font-size: 10px;
+  	color: #fff;
+  	font-family: Roboto;
+}
+
+
+
+.value2 {
+position: relative;
+
+}
+.label4 {
+align-self: stretch;
+position: relative;
+opacity: 0.33;
+overflow: hidden;
+text-align: left;
+}
+.value4 {
+align-self: stretch;
+position: relative;
+overflow: hidden;
+text-align: left;
+}
+
+.secInfo {
+align-self: stretch;
+border-bottom: 1px solid #12464e;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: 8px;
+}
+.secInfoType {
+width: 100%;
+position: relative;
+border-bottom: 1px solid #12464e;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: 8px;
+text-align: left;
+font-size: 10px;
+color: #fff;
+font-family: Roboto;
+}
+ .sec2 {
+align-self: stretch;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 8px;
+gap: 4px;
+}
+
+.context {
+  align-self: stretch;
+  width: 232px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #08343c;
+  border: 1px solid #133d44;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  padding: 10px;
+  font-size: 10px;
+  color: #fff;
+  font-family: Roboto;
+  height: auto; /* Allow height to adjust based on content */
+  min-height: 160px; /* Set a minimum height */
+  overflow: hidden; /* Ensure content stays within the border radius */
+}
+
+.context > * {
+  width: 100%; /* Make all child elements take full width */
+  text-align: center; /* Center text horizontally */
+  margin: 4px 0; /* Consistent vertical margin */
+  padding: 0; /* Remove padding from child elements */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.sectionTitle1 {
+  align-self: stretch;
+  backdrop-filter: blur(14px);
+  border-radius: 24px;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(36, 160, 181, 0.2),
+      rgba(36, 160, 181, 0)
+    ),
+    rgba(10, 12, 17, 0.1);
+  border-right: 2px solid #07373f;
+  border-bottom: 2px solid #07373f;
+  border-left: 2px solid #07373f;
+  box-sizing: border-box;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px;
+  gap: 8px;
+  text-align: center;
+  font-size: 62px;
+  font-family: "Road Rage";
+}
+.progressContainer1 {
+  position: relative;
+  background-color: #07373f;
+  height: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-family: Roboto;
+  opacity: 0.33;
+
+}
+.button {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.button1 {
+  position: relative;
+  font-size: 14px;
+  line-height: 150%;
+}
+.sec1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+}
+.button2 {
+  position: relative;
+  line-height: 110%;
+  font-weight: 600;
+}
+.container {
+  width: 260px;
+  border-radius: 8px;
+  background-color: #0e464f;
+  border: 1px solid #2ba4b9;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  position: relative;
+  padding: 0.8rem; 
+  font-size: 20px;
+  height: 435px; 
+  min-height: 60dvh; /* Minimum height */
+  overflow: hidden; /* Ensure content stays within the border radius */
+}
+
+.radio3 {
+  width: 100px;
+  border-radius: 12px;
+  background-color: #197686;
+  border: 1px solid #197686;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px;
+  gap: 8px;
+}
+
+.button1 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.button2 {
+  position: relative;
+  font-size: 14px;
+  line-height: 150%;
+  color: #d9d9d9;
+}
+.sec {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 16px;
+  color: #fafafa;
+}
+.radio4 {
+  width: 160px;
+  border-radius: 12px;
+  background-color: #12464e;
+  border: 1px solid #197686;
+  box-sizing: border-box;
+  height: 112px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px;
+  gap: 12px;
+}
+.radio5 {
+  width: 162px;
+  border-radius: 12px;
+  border: 2px solid #197686;
+  box-sizing: border-box;
+  height: 114px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px;
+  gap: 12px;
+}
+.radio5:hover {
+  background-color: #2c545b; /* Hover color */
+}
+
+.radioButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.input {
+  width: 100%;
+  position: relative;
+  border-radius: 24px;
+  background-color: #052228;
+  border: 1px solid #07373f;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Roboto;
+  display: block;
+}
+
+.selectOne {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.iconChevronDown {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.select {
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #07373f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px;
+  gap: 8px;
+  color: #fff;
+}
+.button9 {
+  flex: 1;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #24a0b5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+}
+.button11 {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #24a0b5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  color: #fff;
+}
+.buttons {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 24px;
+  color: #24a0b5;
+  font-family: Roboto;
+}
+.sectionTitleGroup {
+  align-self: stretch;
+  border-radius: 32px;
+  background-color: #08252b;
+  border: 1px solid #0e464f;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px;
+  gap: 32px;
+  font-size: 16px;
+  color: #fafafa;
+  font-family: Roboto;
+}
+.formContent {
+  width: 702px;
+  border-radius: 40px;
+  background-color: #041e23;
+  border: 1px solid #0e464f;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  gap: 32px;
+}
+.progressBar1 {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  bottom: 0%;
+  left: 0px;
+  border-radius: 5px;
+  background-color: #24a0b5;
+  width: 326px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .progressBar1 {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .progressBar1 {
+    width: 150px;
+  }
+}
+.iconCloudDownload {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sectionTitle3 {
+  width: 240px;
+  border-radius: 32px;
+  background-color: #0e464f;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+  gap: 16px;
+}
+.sectionTitleWrapper {
+  align-self: stretch;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: 556px;
+  border-radius: 24px;
+  background-color: #052228;
+  border: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+  gap: 32px;
+  text-align: center;
+}
+.textInput {
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #07373f;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 12px;
+  gap: 10px;
+  color: white;
+  background-color: transparent !important;
+}
+.textInput2 {
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #07373f;
+  box-sizing: border-box;
+  height: 129px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px;
+  color: #aaa;
+  background-color: transparent !important;
+}
+
+.buttons1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.formContent1 {
+  width: 702px;
+  border-radius: 24px;
+  background-color: #041e23;
+  border: 1px solid #0e464f;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  gap: 32px;
+}
+.text7 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Roboto;
+  color: #fafafa;
+}
+.sectionTitle5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.starIcon {
+  position: absolute;
+  top: calc(50% + 34.11px);
+  left: calc(50% - 38.54px);
+  width: 79.7px;
+  height: 73.1px;
+  object-fit: contain;
+}
+.heading6 {
+  position: relative;
+  line-height: 81%;
+  transform: rotate(-90deg);
+}
+.text8 {
+  position: relative;
+  font-size: 11.54px;
+  line-height: 150%;
+  transform: rotate(-90deg);
+  font-family: Roboto;
+}
+.headingParent {
+  position: absolute;
+  top: 12.11px;
+  left: calc(50% - 19.7px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 2.8px;
+}
+
+
+
+
+
+.form1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: left;
+  font-size: 24.42px;
+  color: #fafafa;
+  font-family: "Road Rage";
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  text-align: center;
+  font-family: Alatsi;
+}
+.forms {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+}
+.multiStepForm {
+  width: 100%;
+position: relative;
+background: radial-gradient(50% 50% at 50% 50%, rgba(36, 160, 181, 0.2), rgba(36, 160, 181, 0)), #02191d;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+padding: 60px 0px;
+box-sizing: border-box;
+text-align: left;
+font-size: 32px;
+color: #fff;
+font-family: Alatsi;
+height: 100%
+}
+
+
+.radio {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: transparent; /* Default background */
+  transition: background-color 0.3s ease;
+}
+
+.radio:hover {
+  background-color: ; /* Hover color */
+}
+
+.selected {
+  background-color: #12464e !important; /* Selected button color */
+  color: white;
+  font-weight: bold;
+}
+
+.ticketImage {
+  width: 100%;
+  gap: 30px;
+  background: #052228;
+  border: 0;
+  display: flex;
+  position: relative; 
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  background-image: url("/Subtract.png") ;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: contain;
+  background-position: center;
+  
+}
+.barcode {
+  position: absolute; /* Position the barcode absolutely */
+  bottom: 20px; /* Adjust distance from the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  width: 200px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.dropdownMenu {
+  width: 100%;
+  position: relative;
+  background-color: #041e23;
+  border: 1px solid #07373f;
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  z-index: 10;
+}
+.eventTitle {
+width: 100%;
+position: relative;
+font-size: 34px;
+line-height: 100%;
+font-family: 'Road Rage';
+color: #fff;
+text-align: center;
+display: inline-block;
+}
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .multiStepForm {
+    padding: 40px 16px !important;
+  }
+
+  .formContent1 {
+    width: 100% !important;
+    padding: 24px !important;
+    border-radius: 16px !important;
+  }
+  .progressBar {
+    width: 10px !important;
+  }
+  .heading1 {
+    font-size: 3rem;
+  }
+  .formContent {
+    width: 100% !important;
+    padding: 24px !important;
+    border-radius: 24px !important;
+  }
+  .sectionTitleParent {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+  }
+  .text3 {
+    display: none !important;
+  }
+  .progressBar {
+    width: 150px !important;
+  }
+
+  .sectionTitle1 {
+    height: auto !important;
+    padding: 16px !important;
+  }
+
+  .ticketContent {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .profileSection {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  .mainSection {
+    padding: 16px 0;
+  }
+
+  .eventTitle {
+    font-size: 48px;
+  }
+
+  .eventitledate {
+    margin-top: 24px;
+  }
+
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .deets {
+    flex-direction: column !important;
+    gap: 4px !important;
+    align-items: center !important;
+    font-size: 0.8rem;
+    padding-top: 10px;
+  }
+
+  .radioButton {
+    flex-direction: column !important;
+    width: auto !important;
+    align-items: stretch;
+    height: auto;
+    gap: 24px !important;
+  }
+  .radio3,
+  .radio31 {
+    width: 100% !important;
+  }
+
+  .radio4,
+  .radio5 {
+    width: 100%;
+    height: auto;
+    padding: 12px !important;
+  }
+  .buttons {
+    flex-direction: column !important;
+    height: auto !important;
+    gap: 12px !important;
+    padding: 16px !important;
+  }
+
+  .button9,
+  .button11 {
+    width: 100% !important;
+    text-align: center;
+    gap: 12px;
+    position: relative;
+  }
+
+  .select {
+    width: 100% !important;
+  }
+
+  .main {
+    text-align: center !important;
+  }
+
+  .text1 {
+    width: 100% !important;
+    font-size: 14px !important;
+  }
+  .sectionTitleGroup {
+    padding: 16px !important;
+    gap: 24px !important;
+  }
+
+  .textInput,
+  .textInput2 {
+    width: 100% !important;
+    font-size: 14px !important;
+  }
+
+  .ticket {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitleGroup {
+    padding: 16px !important;
+    gap: 24px !important;
+  }
+  .button2 {
+    font-size: 16px !important;
+  }
+
+  .button1 {
+    font-size: 12px !important;
+  }
+
+  .iconChevronDown {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .heading1 {
+    font-size: 2.5rem !important;
+  }
+
+  .text2 .text1 {
+    font-size: 10px !important;
+  }
+  .textInput,
+  .textInput2 {
+    font-size: 12px !important;
+    padding: 10px !important;
+  }
+
+  .buttons1 {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .ticket {
+    padding: 12px !important;
+  }
+}
