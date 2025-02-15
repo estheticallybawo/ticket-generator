@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+
+.
+.text {
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Roboto;
+  color: #fafafa;
+}
 
 .sectionTitle {
   flex: 1;
@@ -8,13 +17,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.text {
-  position: relative;
-  font-size: 16px;
-  line-height: 150%;
-  font-family: Roboto;
-  color: #fafafa;
-}
+
 .sectionTitleParent {
   align-self: stretch;
   display: flex;
