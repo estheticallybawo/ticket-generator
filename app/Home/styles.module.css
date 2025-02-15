@@ -958,20 +958,45 @@ height: 100%
   align-items: flex-start;
   justify-content: center;
   padding: 30px;
-  background-image: url("/Subtract.png") ;
+  background-image: url("/Subtract.png");
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: contain;
   background-position: center;
-  
+}
+
+@media (max-width: 768px) {
+  .ticketImage {
+    padding: 20px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  .ticketImage {
+    padding: 10px;
+    background-size: cover;
+  }
 }
 .barcode {
-  position: absolute; /* Position the barcode absolutely */
-  bottom: 20px; /* Adjust distance from the bottom */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Center horizontally */
-  width: 200px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
+  position: absolute; 
+  bottom: 20px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 200px; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .barcode {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .barcode {
+    width: 100px;
+  }
 }
 
 .dropdownMenu {
