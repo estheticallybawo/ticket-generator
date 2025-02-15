@@ -16,7 +16,7 @@ const Home: React.FC = () => {
   const [showTicket, setShowTicket] = useState(false);
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const { setAttendeeData, attendeeData } = useTickets();
-  const [serialNumber, setSerialNumber] = useState("");
+
 
 
   // Ticket options
@@ -181,10 +181,6 @@ const Home: React.FC = () => {
     if (typeof window !== "undefined") {
       localStorage.setItem("selectedTicket", ticketType); // Store in local storage
     };
-  };
-
-  const ticketReveal = () => {
-    setShowTicket(!showTicket);
   };
 
 

@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Road+Rage:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alatsi:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 
 .heading {
   align-self: stretch;
@@ -262,15 +263,30 @@ overflow: hidden;
   	position: relative;
   	line-height: 150%;
 }
+
 .userimgIcon {
-position: relative;
-border-radius: 8px;
-border: 2px solid #24A0B5;
-overflow: hidden;
-flex-shrink: 0;
-object-fit: cover;
-padding: 5px;
-gap: 3px;
+  position: relative;
+  border-radius: 8px;
+  border: 2px solid #24A0B5;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  padding: 5px;
+  gap: 3px;
+}
+
+@media (max-width: 768px) {
+  .userimgIcon {
+    padding: 3px;
+    gap: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .userimgIcon {
+    padding: 2px;
+    gap: 1px;
+  }
 }
 .secAddress {
   	position: relative;
@@ -353,22 +369,37 @@ gap: 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Align content to the top */
+  justify-content: flex-start; 
   padding: 10px;
   font-size: 10px;
   color: #fff;
   font-family: Roboto;
-  height: auto; /* Allow height to adjust based on content */
-  min-height: 160px; /* Set a minimum height */
-  overflow: hidden; /* Ensure content stays within the border radius */
+  height: 160px; 
+  overflow: hidden; 
+}
+
+@media (max-width: 768px) {
+  .context {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .context {
+    padding: 6px;
+    font-size: 6px;
+  }
 }
 
 .context > * {
-  width: 100%; /* Make all child elements take full width */
-  text-align: center; /* Center text horizontally */
-  margin: 4px 0; /* Consistent vertical margin */
-  padding: 0; /* Remove padding from child elements */
-  flex-shrink: 0; /* Prevent shrinking */
+  width: 100%; 
+  text-align: center; 
+  margin: 4px 0;
+  padding: 0; 
+  flex-shrink: 0; 
 }
 
 .sectionTitle1 {
