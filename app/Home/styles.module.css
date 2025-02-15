@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.heading {
-  align-self: stretch;
-  position: relative;
-}
+
 .sectionTitle {
   flex: 1;
   display: flex;
@@ -38,6 +35,13 @@
   overflow: hidden;
 }
 
+.heading {
+  align-self: stretch;
+  position: relative;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #fafafa;
+}
 
 .progressBar2 {
   position: absolute;
