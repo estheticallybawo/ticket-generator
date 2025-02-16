@@ -376,10 +376,10 @@ const Home: React.FC = () => {
                 <div className={styles.container}>
                   <div className={styles.main1}>
                     <div className={styles.eventitledate}>
-                      <div className={styles.eventTitle}>Techember Fest &rdquo;25</div>
+                      <h2 className={styles.eventTitle}>Techember Fest &rdquo;25</h2>
                       <div className={styles.secAddress}>
-                        <div className={styles.address}>📍 04 Rumens road, Ikoyi, Lagos</div>
-                        <div className={styles.address}>📅 March 15, 2025 | 7:00 PM</div>
+                        <p className={styles.address}>📍 04 Rumens road, Ikoyi, Lagos</p>
+                        <p className={styles.address}>📅 March 15, 2025 | 7:00 PM</p>
                       </div>
                     </div>
 
@@ -388,8 +388,8 @@ const Home: React.FC = () => {
                         <Image
                           alt="Uploaded Image"
                           src={uploadedImage}
-                          width={150}
-                          height={150}
+                          width={100}
+                          height={100}
                         />
                       )}
                     </div>
@@ -397,28 +397,28 @@ const Home: React.FC = () => {
                     <div className={styles.context}>
                       <div className={styles.secInfo}>
                         <div className={styles.cellName}>
-                          <div className={styles.labelName}>Your Name</div>
+                          <p className={styles.labelName}>Your Name</p>
                           <p className={styles.valueName}>{formData.name || "Esther tsoso"} </p>
                         </div>
                         <div className={styles.cell1}>
-                          <div className={styles.labelEmail}>Your Email</div>
+                          <p className={styles.labelEmail}>Your Email</p>
                           <p className={styles.valueEmail}>{formData.email || "user@email.com"}</p>
                         </div>
                       </div>
                       <div className={styles.secInfoType}>
                         <div className={styles.cell}>
-                          <div className={styles.labelType}>Ticket Type</div>
-                          <div className={styles.valueType}>{selectedTicket || "VIP"}</div>
+                          <p className={styles.labelType}>Ticket Type</p>
+                          <p className={styles.valueType}>{selectedTicket || "VIP"}</p>
                         </div>
                         <div className={styles.cell1}>
-                          <div className={styles.labelFor}>Ticket for</div>
+                          <p className={styles.labelFor}>Ticket for</p>
                           <p className={styles.valueFor}>{ticketCount || "1"}</p>
                         </div>
                         <div>
                         </div>
                       </div>
                       <div className={styles.sec2}>
-                        <div className={styles.label4}>Special request?</div>
+                        <p className={styles.label4}>Special request?</p>
                         <p className={styles.value4}>{formData.specialRequest || "None"}</p>
                       </div>
                     </div>
